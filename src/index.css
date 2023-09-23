@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btn {
+  background: linear-gradient(
+    92.23deg,
+    #4caf50 21.43%,
+    #388e3c 50.63%,
+    #2e7d32 100%,
+    #1b5e20 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(76, 175, 80, 0.51);
+} */
+
+.btn {
+  background: linear-gradient(
+    92.23deg,
+    #00bcd4 21.43%,
+    /* Cyan */ #0097a7 50.63%,
+    /* Cyan */ #007c89 100%,
+    /* Cyan */ #004a52 117.04% /* Cyan */
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(0, 188, 212, 0.51); /* Cyan shadow */
+}
+
+.btn:hover {
+  background: linear-gradient(
+    92.23deg,
+    #004a52 21.43%,
+    #007c89 50.63%,
+    #0097a7 100%,
+    #00bcd4 117.04%
+  );
+}
+
+.gradient,
+.active {
+  background: linear-gradient(
+    92.23deg,
+    #004a52 21.43%,
+    #007c89 50.63%,
+    #0097a7 100%,
+    #00bcd4 117.04%
+  );
+}
+
+.active {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+@layer base {
+  body {
+    @apply font-secondary text-lg leading-8 text-white;
+  }
+  .h2 {
+    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+  }
+  .h3 {
+    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+  }
+  .btn {
+    @apply rounded-full font-primary text-white font-medium;
+  }
+  .btn-sm {
+    @apply h-[35px] px-5 md:text-sm text-[10px];
+  }
+  .btn-lg {
+    @apply h-[53px] px-10 text-base;
+  }
+  .btn-link {
+    @apply text-base;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-cyan-950 to-cyan-500 font-bold font-primary hover:from-cyan-500 hover:to-cyan-950;
+  }
+  .small-text-gradient {
+    @apply bg-gradient-to-r text-sm text-transparent bg-clip-text from-cyan-500 to-cyan-950 font-rajdhani hover:from-cyan-950 hover:to-cyan-500;
+  }
+  .section {
+    @apply py-8 lg:py-24 flex lg:h-screen items-center;
+  }
+}
