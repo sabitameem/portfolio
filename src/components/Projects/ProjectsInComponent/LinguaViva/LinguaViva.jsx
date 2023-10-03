@@ -4,12 +4,14 @@ import linguaViva from "../../../../assets/project/Screenshot (4).png";
 const LinguaViva = () => {
   return (
     <div
-      data-aos="flip-left"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="3000"
+      // data-aos="flip-right"
+      // data-aos-easing="ease-out-cubic"
+      data-aos="zoom-out-up"
+      data-aos-duration="2000"
+     
       className="flex flex-col w-full lg:flex-row justify-between my-20 "
     >
-      <img className="md:w-[50%] w-full h-[300px]" src={linguaViva} alt="" />
+      <img className="md:w-[50%] w-full h-[300px] shadow-lg" src={linguaViva} alt="" />
       <div className="lg:px-8 py-auto">
         <p className="font-semibold text-cyan-800 font-rajdhani">
           LinguaViva{" "}

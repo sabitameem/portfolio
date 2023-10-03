@@ -4,16 +4,21 @@ import resumeGenius from "../../../../assets/project/Screenshot 2023-09-22 at 7.
 const ResumeGenius = () => {
   return (
     <div
-      data-aos="flip-left"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="4000"
+      // data-aos="flip-left"
+      // data-aos-easing="ease-out-cubic"
+      // data-aos-duration="4000"
+      data-aos="zoom-in-down"
+      data-aos-duration="2000"
+     
       className="flex flex-col w-full lg:flex-row justify-between my-20 "
     >
-      <img
-        className="md:w-[50%] w-full h-[300px]"
+    
+     <img
+        className="md:w-[50%] w-full h-[300px] shadow-lg"
         src={resumeGenius}
         alt="Resume Crafters screenshot"
       />
+    
       <div className="md:w-[50%] lg:px-8  py-auto">
         <p className="font-semibold text-cyan-800 font-rajdhani">
           Resume Crafters{" "}

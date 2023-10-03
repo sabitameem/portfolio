@@ -5,14 +5,16 @@ import collegeGuide from "../../../../assets/project/AB1227DE-3F40-4274-91C1-77A
 const CollegeGuide = () => {
   return (
     <div
-      data-aos="flip-left"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="3000"
+      // data-aos="flip-right"
+      // data-aos-easing="ease-out-cubic"
+      // data-aos-duration="3000"
+      data-aos="zoom-out-up"
+      data-aos-duration="2000"
       className="flex flex-col w-full lg:flex-row justify-between  my-20"
     >
       <img
-      style={{width: "586px"}}
-        className="md:w-[586px] w-full h-[300px]"
+      
+        className="md:w-[50%] w-full h-[300px] shadow-lg"
         src={collegeGuide}
         alt="College Guide screenshot"
       /> 

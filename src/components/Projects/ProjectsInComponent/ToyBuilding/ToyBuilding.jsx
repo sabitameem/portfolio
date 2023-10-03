@@ -4,13 +4,15 @@ import toyBuilding from "../../../../assets/project/Screenshot (8).png"
 const ToyBuilding = () => {
     return (
         <div
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="3000"
+        // data-aos="flip-left"
+        // data-aos-easing="ease-out-cubic"
+        // data-aos-duration="3000"
+        data-aos="zoom-in-down"
+      data-aos-duration="2000"
         className="flex flex-col w-full lg:flex-row justify-between my-20 "
       >
         <img
-          className="md:w-[50%] w-full h-[300px]"
+          className="md:w-[50%] w-full h-[300px] shadow-lg"
           src={toyBuilding}
           alt=""
         />
