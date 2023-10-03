@@ -40,7 +40,7 @@ const Contact = () => {
   };
   return (
     <section
-      className=" container mx-auto "
+      className="container mx-auto"
      
     >
       <h2 className="section_title text-[34px] font-semibold text-cyan-800 font-rajdhani ">
@@ -57,7 +57,7 @@ const Contact = () => {
         />
         <div>
           <h3 className="font-rajdhani text-center my-6 text-gradient">
-            Write me your project
+            Write me your project : <br /> sabitameem578@gmail.com
           </h3>
           <form
             ref={form}

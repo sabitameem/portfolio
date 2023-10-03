@@ -27,7 +27,7 @@ const App = () => {
         {" "}
         <Projects></Projects>
       </div>
-      <div  id="contact" className="md:pt-20 mb-12"><Contact></Contact></div>
+      <div  id="contact" className="md:pt-24  mb-12"><Contact></Contact></div>
 
       
       <Footer></Footer>

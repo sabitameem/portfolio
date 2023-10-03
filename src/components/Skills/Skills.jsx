@@ -20,12 +20,14 @@ const Skills = () => {
       <div className="flex flex-col lg:flex-row gap-3 justify-between font-rajdhani">
         {/* frontend */}
         <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="3000"
+          // data-aos="flip-left"
+          // data-aos-easing="ease-out-cubic"
+          // data-aos-duration="3000"
+          // data-aos="flip-left"
+          data-aos="zoom-in"
           className="content w-[90%] mx-auto  px-[10%] lg:px-[2%] md:w-full bg-cyan-900 text-white"
         >
-          <p className="title md:mt-2 text-center">Frontend Developer</p>
+          <p className="title md:mt-2 text-center">Frontend</p>
           <div className="flex justify-center items-center lg:grid lg:grid-cols-2 gap-16">
             <div className="">
               <div className="lg:w-[110px] py-3">
@@ -81,12 +83,13 @@ const Skills = () => {
         </div>
 
         <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="3000"
+          // data-aos="flip-left"
+          // data-aos-easing="ease-out-cubic"
+          // data-aos-duration="3000"
+          data-aos="zoom-out-up"
           className="content w-[90%] mx-auto  px-[10%] lg:px-[2%] md:w-full bg-cyan-900 text-white"
         >
-          <p className="title md:mt-2 text-center">Backend Developer</p>
+          <p className="title md:mt-2 text-center">Backend</p>
           <div className="flex justify-center lg:grid lg:grid-cols-2 gap-16">
             <div className="">
               <div className="lg:w-[110px] py-3">
@@ -201,9 +204,10 @@ const Skills = () => {
         </div> */}
 
         <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="3000"
+          // data-aos="flip-right"
+          // data-aos-easing="ease-out-cubic"
+          // data-aos-duration="3000"
+          data-aos="zoom-out"
           className="content w-[90%] mx-auto  px-[10%] lg:px-[2%] md:w-full bg-cyan-900 text-white"
         >
           <p className="title md:mt-2  text-center">Tools</p>

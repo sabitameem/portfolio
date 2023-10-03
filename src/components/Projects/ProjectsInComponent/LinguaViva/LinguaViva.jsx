@@ -6,8 +6,8 @@ const LinguaViva = () => {
     <div
       // data-aos="flip-right"
       // data-aos-easing="ease-out-cubic"
-      data-aos="zoom-out-up"
-      data-aos-duration="2000"
+      data-aos="zoom-out-down"
+      data-aos-duration="1000"
      
       className="flex flex-col w-full lg:flex-row justify-between my-20 "
     >

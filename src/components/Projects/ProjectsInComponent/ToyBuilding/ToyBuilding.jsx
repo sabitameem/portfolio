@@ -7,8 +7,8 @@ const ToyBuilding = () => {
         // data-aos="flip-left"
         // data-aos-easing="ease-out-cubic"
         // data-aos-duration="3000"
-        data-aos="zoom-in-down"
-      data-aos-duration="2000"
+        data-aos="zoom-in-up"
+      data-aos-duration="1000"
         className="flex flex-col w-full lg:flex-row justify-between my-20 "
       >
         <img
